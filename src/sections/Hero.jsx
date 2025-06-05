@@ -1,10 +1,9 @@
-import React from 'react'
 import { words } from '../constants/index.js'
 import Button from '../components/button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import AnimatedCounter from '../components/AnimatedCounter.jsx'
+// import AnimatedCounter from '../components/AnimatedCounter.jsx'
 
 const Hero = () => {
   useGSAP(() => {
@@ -39,7 +38,7 @@ const Hero = () => {
             <span className="slide">
               <span className='wrapper'>
                 {words.map((word) => (
-                  <span key={word.text} className='flex items-center md:gap=3 gap-1 pb-2'>
+                  <span key={word.id} className='flex items-center md:gap=3 gap-1 pb-2'>
                     <img 
                       src={word.imgPath}
                       alt={word.text}
@@ -54,7 +53,8 @@ const Hero = () => {
           <h1>that Delivers Results</h1>
           </div>
           <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-            H1, I am Zuha, a developer based in New York with a passion for code.
+            H1, I am Zuha, a developer based in New York with a passion <br />
+            in all things photography and technology.
           </p>
           <Button 
             className="md:w-80 md:h-16 w-60 h-12"
@@ -70,7 +70,7 @@ const Hero = () => {
         </div>
       </figure>
     </div>
-    <AnimatedCounter/>
+    {/* <AnimatedCounter/> */}
     </section>
   )
 }

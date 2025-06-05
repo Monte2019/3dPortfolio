@@ -23,10 +23,13 @@ const HeroExperience = () => {
       <HeroLights />
       <group
         scale={isMobile? 0.7 : 1}
-        position={[0, -4, 0]}
+        position={[0, 0, 0]}
         rotation={[0, -Math.PI / 4, 0]}
        > 
-        <Room />
+        {/* Laptop Brightness */}
+       <directionalLight position={[5, 5, 5]} intensity={.3} />
+       <pointLight position={[-5, 2, 5]} intensity={0.8} />
+        <Laptop />
       </group> 
     </Canvas>
     

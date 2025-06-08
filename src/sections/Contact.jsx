@@ -6,6 +6,7 @@ import ContactExperience from "../components/Models/contact/ContactExperience";
 const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
+  const [isSent, setIsSent] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -15,6 +16,7 @@ const Contact = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
+    if (isSent) setIsSent(false); // Reset confirmation if user edits form again
   };
 
   const handleSubmit = async (e) => {
@@ -31,6 +33,7 @@ const Contact = () => {
 
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
+      setIsSent(true); // Show confirmation
     } catch (error) {
       console.error("EmailJS Error:", error); // Optional: show toast
     } finally {
@@ -104,6 +107,12 @@ const Contact = () => {
                     </div>
                   </div>
                 </button>
+                {/* Confirmation message */}
+                {isSent && (
+                  <p className="mt-4 text-green-500 font-semibold">
+                    Thank you! Your message has been sent!
+                  </p>
+                )}
               </form>
             </div>
           </div>

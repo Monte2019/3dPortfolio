@@ -9,7 +9,7 @@ const Button = ({ text, className, id }) => {
         if(target && id) {
           // Use offset only on mobile (e.g., screen width < 768px)
           const isMobile = window.innerWidth < 768;
-          const offset = isMobile ? window.innerHeight * 0.15 : 0;
+          const offset = isMobile ? window.innerHeight * 0.05 : 0;
 
           const top = target.getBoundingClientRect().top + window.scrollY - offset;
 

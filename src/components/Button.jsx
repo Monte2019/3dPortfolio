@@ -7,7 +7,9 @@ const Button = ({ text, className, id }) => {
         const target = document.getElementById('work')
 
         if(target && id) {
-          const offset = window.innerHeight * 0;
+          // Use offset only on mobile (e.g., screen width < 768px)
+          const isMobile = window.innerWidth < 768;
+          const offset = isMobile ? window.innerHeight * 0.15 : 0;
 
           const top = target.getBoundingClientRect().top + window.scrollY - offset;
 

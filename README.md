@@ -1,12 +1,30 @@
-# React + Vite
+# zuhaahmed.com 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code for [zuhaahmed.com](https://zuhaahmed.com) — my personal website and digital portfolio. Built to showcase my projects, resume, and technical skills, this site is a reflection of my journey as a software developer and tester.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** [React.js](https://reactjs.org/) + [Tailwind CSS](https://tailwindcss.com/)
+- **Features:**
+  - Responsive design
+  - Dark mode / Light mode toggle
+  - Smooth navigation and animations
+- **Deployment:** [Vercel](https://vercel.com/) / [AWS](https://aws.amazon.com/) *(depending on hosting method)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Folder Structure
+
+```bash
+/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Page components (Home, About, Projects, etc.)
+│   ├── styles/         # Tailwind config or global styles
+│   └── utils/          # Helper functions
+├── tailwind.config.js  # Tailwind CSS configuration
+├── package.json        # Project metadata and dependencies
+└── README.md           # You're here

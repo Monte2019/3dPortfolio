@@ -155,8 +155,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Zuha joined the team as a leader for our Quality Assurance goals and is working on projects to significantly improve the way our client's data is secured and used.. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/f5.png",
+    logoPath: "/images/f5logo.png",
     title: "Software Developer In Test II",
     date: "June 2022 - Present",
     responsibilities: [
@@ -168,8 +168,8 @@ const expCards = [
   },
   {
     review: "Zuha’s contributions to Infosys' clients is a perfect example of how Infosys wants to represent their clients. He approaches challenges with a problem-solving mindset and ready to move even in a quickly changing market.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "/images/infosys.png",
+    logoPath: "/images/infosyslogo.png",
     title: "Quality Assurance Engineer II",
     date: "May 2021 - May 2022",
     responsibilities: [
@@ -182,8 +182,8 @@ const expCards = [
   },
   {
     review: "Zuha’s work at The Body Shop brought a high level of quality and efficiency. He delivered solutions that enhanced our testing methods and strategies.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    imgPath: "/images/bodyshop.png",
+    logoPath: "/images/bodyshoplogo.png",
     title: "Quality Assurance Engineer",
     date: "August 2018 - April 2021",
     responsibilities: [

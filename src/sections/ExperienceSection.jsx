@@ -68,6 +68,7 @@ const ExperienceSection = () => {
                   <div className='xl:w-2/6'>
                     <GlowCard card={card} index={index}>
                       <div>
+                        {/* Company Logo for the left side referrals */}
                         <img src={card.imgPath} alt={card.title} />
                       </div>
                     </GlowCard>

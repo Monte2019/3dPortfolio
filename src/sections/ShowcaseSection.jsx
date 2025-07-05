@@ -60,10 +60,13 @@ const ShowcaseSection = () => {
           {/*RIGHT*/}
           <div className="project-list-wrapper overflow-hidden">
           <div className="project" ref={project2Ref}>
+            {/* Link to movie database */}
+            <a href="https://movie.zuhaahmed.com" target="_blank" rel="noopener noreferrer">
             <div className="image-wrapper bg-[#ffefdb]">
-              <img src="/images/project2.png" alt="Library Management Platform" />
+              <img src="/images/project4.png" alt="Movie Database Platform" />
             </div>
-            <h2> Library Management Platform </h2>
+            <h2> Movie Database Platform</h2>
+            </a>
           </div>
           <div className="project" ref={project3Ref}>
             <div className="image-wrapper bg-[#ffe7eb]">

@@ -36,9 +36,13 @@ section {
   .flex-col-center {
     @apply flex flex-col justify-center items-center;
   }
+  .techstack {
+    @apply inline-flex items-center rounded-md border font-semibold transition-colors
+           focus:outline-none border-yellow-200 px-2 py-0.5 text-[10px]     
+  }
 }
 
-@layer components {
+@layer components { 
   .padding-x {
     @apply px-5 md:px-10;
   }

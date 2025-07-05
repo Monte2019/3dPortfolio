@@ -11,8 +11,6 @@ const ShowcaseSection = () => {
   const project2Ref = useRef(null);
   const project3Ref = useRef(null);
 
-  
-
   useGSAP(() => {
     const projects = [project1Ref.current, project3Ref.current, project2Ref.current];
     projects.forEach((project, index) => {
@@ -67,12 +65,24 @@ const ShowcaseSection = () => {
             </div>
             <h2> Movie Database Platform</h2>
             </a>
+            <div className="flex flex-wrap gap-2 mt-4">
+              <span className="techstack">React</span>
+              <span className="techstack">Next.JS</span>
+              <span className="techstack">FastAPI</span>
+              <span className="techstack">TailwindCSS</span>
+            </div>      
           </div>
           <div className="project" ref={project3Ref}>
             <div className="image-wrapper bg-[#ffe7eb]">
               <img src="/images/project3.png" alt="YC Directory" />
             </div>
             <h2> YC Directory - A Startup Showcase App </h2>
+            <div className="flex flex-wrap gap-2 mt-4">
+              <span className="techstack">React</span>
+              <span className="techstack">Next.JS</span>
+              <span className="techstack">SEO</span>
+              <span className="techstack">TailwindCSS</span>
+            </div>
           </div>
          </div>          
        </div>

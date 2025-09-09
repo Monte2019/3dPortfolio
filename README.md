@@ -1,6 +1,6 @@
 # zuhaahmed.com 🌐
 
-Welcome to the source code for [zuhaahmed.com](https://zuhaahmed.com) — my personal website and digital portfolio. Built to showcase my projects, resume, and technical skills, this site is a reflection of my journey as a software developer and tester.
+Welcome to [zuhaahmed.com](https://zuhaahmed.com) — my personal website and digital portfolio. Built to showcase my projects, resume, and technical skills, this site is a reflection of my journey as a software developer and tester.
 
 ---
 
@@ -9,22 +9,13 @@ Welcome to the source code for [zuhaahmed.com](https://zuhaahmed.com) — my per
 - **Frontend:** [React.js](https://reactjs.org/) + [Tailwind CSS](https://tailwindcss.com/)
 - **Features:**
   - Responsive design
-  - Dark mode / Light mode toggle
+  - 3D models of a Macbook and Workplace
   - Smooth navigation and animations
-- **Deployment:** [Vercel](https://vercel.com/) / [AWS](https://aws.amazon.com/) *(depending on hosting method)*
+  - Contact Page at the bottom to email me directly.
+- **Deployment:** [Vercel](https://vercel.com/) / [AWS](https://aws.amazon.com/) 
 
+## Future Implementation
+
+-Chatbot to answer any questions anyone has on my resume
+-Photo Gallery to showcase either achievements or Photos I have taken
 ---
-
-## 🧰 Folder Structure
-
-```bash
-/
-├── public/             # Static assets
-├── src/
-│   ├── components/     # Reusable React components
-│   ├── pages/          # Page components (Home, About, Projects, etc.)
-│   ├── styles/         # Tailwind config or global styles
-│   └── utils/          # Helper functions
-├── tailwind.config.js  # Tailwind CSS configuration
-├── package.json        # Project metadata and dependencies
-└── README.md           # You're here

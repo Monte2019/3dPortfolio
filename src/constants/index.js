@@ -127,9 +127,9 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Java Developer",
-    modelPath: "/models/java-transformed.glb",
-    scale: 1.5,
+    name: "JavaScript Developer",
+    modelPath: "/models/js-logo2.glb",
+    scale: 40,
     rotation: [0, 0, 0],
   },
   {
@@ -154,16 +154,17 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Zuha joined the team as a leader for our Quality Assurance goals and is working on projects to significantly improve the way our client's data is secured and used.. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/f5.png",
-    logoPath: "/images/f5logo.png",
-    title: "Software Developer In Test II",
-    date: "June 2022 - Present",
+    review: "Zuha’s contributions at One Shot Restoration elevated our quality and release confidence. He led our automation and validation efforts across critical workflows and helped the team move faster with fewer regressions.",
+    imgPath: "/images/oneshotLogo.PNG",
+    logoPath: "/images/oneshotLogo.PNG",
+    title: "Software Developer In Test",
+    date: "Jan 2023 - Present",
     responsibilities: [
-      "Lead API testing initiatives using RESTful/JSON web services, achieving 95% test coverage for key payment endpoints.",
-      "Developed test plans including regression and UAT for enterprise web applications.",
-      "Performing cross-browser testing (Chrome, Firefox, Safari) and device validation on Android to ensure consistent functionality.",
-      "Conducted manual feature testing with immediate feedback during QA sprints."
+      "Led end-to-end test automation for core workflows (job intake → estimate → work order → invoice), owning suite design, coverage strategy, and ongoing maintenance to catch regressions early.",
+      "Designed practical QA process for a small/fast-moving team: risk-based test plans, smoke/regression suites, and clear defect reporting aligned to business impact.",
+      "Led API + database validation efforts by creating repeatable checks (API assertions + SQL queries) to ensure customer, pricing, and job-status data stayed consistent across systems.",
+      "Strengthened delivery quality by stabilizing flaky tests, improving test data setup, and adding repeatable checks for role-based access, approvals, and billing edge cases.",
+      "Led cross-functional defect triage and release sign-off, prioritizing fixes by customer impact and ensuring critical jobs, approvals, and invoicing flows remained stable in production."
     ],
   },
   {
@@ -171,7 +172,7 @@ const expCards = [
     imgPath: "/images/infosys.png",
     logoPath: "/images/infosyslogo.png",
     title: "Quality Assurance Engineer II",
-    date: "May 2021 - May 2022",
+    date: "May 2021 - Dec 2022",
     responsibilities: [
       "Executed comprehensive API testing using Postman for RESTful services, validating JSON/XML responses for payment processing systems.",
       "Executed exploratory and ad-hoc manual testing while developing Selenium automation scripts to validate new features and provide immediate feedback during QA sprints.",
@@ -185,7 +186,7 @@ const expCards = [
     imgPath: "/images/bodyshop.png",
     logoPath: "/images/bodyshoplogo.png",
     title: "Quality Assurance Engineer",
-    date: "August 2018 - April 2021",
+    date: "August 2019 - April 2021",
     responsibilities: [
       "Conducted performance testing using JMeter for high-volume financial transactions, identifying and resolving bottlenecks.",
       "Designed and executed automated test suites using Selenium WebDriver with Java and TestNG framework.",
@@ -215,44 +216,10 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about . He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
+  ,
 ];
 
 const socialImgs = [

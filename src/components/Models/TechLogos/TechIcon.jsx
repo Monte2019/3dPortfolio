@@ -2,6 +2,8 @@ import { Environment, Float, OrbitControls, useGLTF } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { useEffect } from 'react';
 import * as THREE from 'three'
+import { Center } from "@react-three/drei";
+
 
 const TechIcon = ({ model }) => {
   const scene = useGLTF(model.modelPath);
@@ -38,11 +40,15 @@ const TechIcon = ({ model }) => {
 
      <OrbitControls enableZoom={false} />
 
-     <Float speed={5.5} rotationIntensity={2} floatIntensity={0.9}>
+    <Center>
+      <Float speed={5.5} rotationIntensity={2} floatIntensity={0.9}>
        <group scale={model.scale} rotation = {model.rotation}>
         <primitive object={scene.scene} />
        </group>
      </Float> 
+
+    </Center>
+     
     </Canvas>
   )
 }
